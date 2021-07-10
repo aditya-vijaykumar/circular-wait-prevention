@@ -5,41 +5,32 @@
         <LogoReveal />
       </v-card>
       <v-card>
-        <v-card-title class="headline">
-          Hello! This web app explores how circular wait can be prevented!
+        <v-card-title>
+          This web app explores how circular wait can be prevented!
         </v-card-title>
         <v-card-text>
-          <p>Deadlocks are a system state where etc tec</p>
           <p>
-            Circular Waits occurs when etc etc. Read more about it
-            <a
-              href="#"
+            Read more about Circular Waits and Deadlocks in our documentation
+           <v-btn text nuxt to="/docs" color="primary"> here </v-btn> Take a look at our
+            GitHub repo for the code
+            <v-btn
+              text color="primary"
+              href="https://github.com/aditya-vijaykumar/circular-wait-prevention"
               target="_blank"
-              rel="noopener noreferrer"
-              class="blue--text"
             >
-              here </a
-            >.
+              here
+            </v-btn>
           </p>
-          <br />
+
           <p>
-            Click on Continue to expolre a popular technique to prevent circular
-            waits and thus, even deadlocks.
+            Click on Continue to explore an interactive implementation of a technique to prevent circular
+            waits in Operating Systems.
           </p>
-          <hr class="my-3" />
-          <br />
-          <a
-            href="https://github.com/aditya-vijaykumar/circular-wait-prevention"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="blue--text"
-          >
-            Our GitHub Repo
-          </a>
+          
         </v-card-text>
         <v-card-actions>
           <v-spacer />
-          <v-btn color="primary black--text" nuxt to="/resourceOne">
+          <v-btn color="primary black--text" class="mr-3 mb-3" nuxt to="/resourceOne">
             Continue
           </v-btn>
         </v-card-actions>

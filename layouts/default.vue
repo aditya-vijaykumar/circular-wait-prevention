@@ -4,7 +4,7 @@
       <v-toolbar class="pt-3" color="yellow darken-2" flat>
         <v-spacer></v-spacer>
 
-        <h1 class="customheader">OS Project</h1>
+        <h1 class="customheader">Circular Wait Prevention</h1>
 
         <v-spacer></v-spacer>
 
