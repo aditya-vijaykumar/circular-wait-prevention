@@ -13,14 +13,14 @@
             Read more about Circular Waits and Deadlocks in our documentation
             <a
               href="https://www.notion.so/Circular-Wait-Prevention-c5fa39d1dd954a8fb87a61c7158afc63"
-              class="primary"
+              class="primary--text"
               target="_blank"
               >here.</a
             >
             Take a look at our GitHub repo for the code
             <a
               href="https://github.com/aditya-vijaykumar/circular-wait-prevention"
-              class="primary"
+              class="primary--text"
               target="_blank"
               >here.</a
             >
