@@ -23,7 +23,7 @@
         <v-list-item
           class="mt-3"
           link
-          href="https://github.com/aditya-vijaykumar/circular-wait-prevention"
+          href="https://www.notion.so/Circular-Wait-Prevention-c5fa39d1dd954a8fb87a61c7158afc63"
           target="_blank"
         >
           <v-list-item-action>
@@ -36,7 +36,7 @@
         <v-list-item
           class="mt-3"
           link
-          href="https://www.notion.so/Circular-Wait-Prevention-c5fa39d1dd954a8fb87a61c7158afc63"
+          href="https://github.com/aditya-vijaykumar/circular-wait-prevention"
           target="_blank"
         >
           <v-list-item-action>
