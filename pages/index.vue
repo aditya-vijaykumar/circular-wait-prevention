@@ -11,26 +11,33 @@
         <v-card-text>
           <p>
             Read more about Circular Waits and Deadlocks in our documentation
-           <v-btn text nuxt to="/docs" color="primary"> here </v-btn> Take a look at our
-            GitHub repo for the code
-            <v-btn
-              text color="primary"
-              href="https://github.com/aditya-vijaykumar/circular-wait-prevention"
+            <a
+              href="https://www.notion.so/Circular-Wait-Prevention-c5fa39d1dd954a8fb87a61c7158afc63"
+              class="primary"
               target="_blank"
+              >here.</a
             >
-              here
-            </v-btn>
+            Take a look at our GitHub repo for the code
+            <a
+              href="https://github.com/aditya-vijaykumar/circular-wait-prevention"
+              class="primary"
+              target="_blank"
+              >here.</a
+            >
           </p>
-
           <p>
-            Click on Continue to explore an interactive implementation of a technique to prevent circular
-            waits in Operating Systems.
+            Click on Continue to explore an interactive implementation of a
+            technique to prevent circular waits in Operating Systems.
           </p>
-          
         </v-card-text>
         <v-card-actions>
           <v-spacer />
-          <v-btn color="primary black--text" class="mr-3 mb-3" nuxt to="/resourceOne">
+          <v-btn
+            color="primary black--text"
+            class="mr-3 mb-3"
+            nuxt
+            to="/resourceOne"
+          >
             Continue
           </v-btn>
         </v-card-actions>
