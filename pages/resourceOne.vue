@@ -66,6 +66,7 @@ export default Vue.extend({
         (v) =>
           v > 1 ||
           "For the algorithm to work, you need to enter at least 2 resources.",
+        (v) => v < 11 || "Max 10 resources allowed.",
       ],
     };
   },
